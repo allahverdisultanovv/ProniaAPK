@@ -7,7 +7,25 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\" />
+    <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Areas\Admin\Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\admin\fonts\.DS_Store" />
+    <None Include="wwwroot\admin\fonts\Roboto\.DS_Store" />
+    <None Include="wwwroot\admin\images\.DS_Store" />
+    <None Include="wwwroot\admin\images\auth\.DS_Store" />
+    <None Include="wwwroot\admin\images\faces\.DS_Store" />
+    <None Include="wwwroot\admin\js\.DS_Store" />
+    <None Include="wwwroot\admin\pages\.DS_Store" />
+    <None Include="wwwroot\admin\pages\charts\.DS_Store" />
+    <None Include="wwwroot\admin\pages\forms\.DS_Store" />
+    <None Include="wwwroot\admin\pages\icons\.DS_Store" />
+    <None Include="wwwroot\admin\pages\samples\.DS_Store" />
+    <None Include="wwwroot\admin\pages\tables\.DS_Store" />
+    <None Include="wwwroot\admin\pages\ui-features\.DS_Store" />
+    <None Include="wwwroot\admin\vendors\.DS_Store" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,6 +35,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
   </ItemGroup>
 
 </Project>
