@@ -19,23 +19,23 @@ namespace ProniaAPK.Controllers
             return View();
         }
 
-        public IActionResult Detail(int? id)
+        public async Task<IActionResult> Detail(int? id)
         {
             if (id < 1 || id is null) return BadRequest();
-            Product? product = _context.Products
+            Product? product = await _context.Products
                 .Include(p => p.Category)
                 .Include(p => p.productImages.OrderByDescending(pi => pi.IsPrimary))
-                .FirstOrDefault(p => p.Id == id);
+                .FirstOrDefaultAsync(p => p.Id == id);
 
             if (product is null) return NotFound();
             DetailVM detailVM = new DetailVM
             {
                 Product = product,
-                RelatedProducts = _context.Products
+                RelatedProducts = await _context.Products
                 .Take(8)
                 .Where(p => p.Category.Id == product.CategoryId && p.Id != id)
                 .Include(p => p.productImages.Where(pi => pi.IsPrimary != null))
-                .ToList()
+                .ToListAsync()
 
             };
             return View(detailVM);

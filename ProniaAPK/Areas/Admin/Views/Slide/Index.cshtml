@@ -1,14 +1,14 @@
 ﻿@using ProniaAPK.Models
-@model List<Category>
+@model List<Slide>
 @{
     var count = 0;
 }
 <div class="col-lg-12 grid-margin stretch-card">
     <div class="card">
         <div class="card-body">
-            <h4 class="card-title">Categories</h4>
+            <h4 class="card-title">Slides</h4>
             <p class="card-description">
-                <a asp-controller="category" asp-action="create" class="btn btn-success">Create Category</a>
+                <a asp-controller="slide" asp-action="create" class="btn btn-success">Create Category</a>
             </p>
             <div class="table-responsive">
                 <table class="table table-striped">
@@ -18,10 +18,13 @@
                                 No
                             </th>
                             <th>
-                                Name
+                                Image
                             </th>
                             <th>
-                                Product Count
+                                Title
+                            </th>
+                            <th>
+                                Order
                             </th>
                             <th>
                                 Settings
@@ -29,28 +32,32 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach(Category category in Model){
+                        @foreach (Slide slide in Model)
+                        {
                             count++;
                             <tr>
                                 <td>
                                     @count
                                 </td>
                                 <td>
-                                    <p>@category.Name</p>
+                                    <img src="~/assets/images/website-images/@slide.Image">
                                 </td>
                                 <td>
-                                    <p>@category.Products.Count</p>
+                                    <p>@slide.Title</p>
                                 </td>
                                 <td>
-                                    <a asp-action="delete" asp-route-id="@category.Id" class="btn btn-danger">Delete</a>
-                                    <a asp-action="update" asp-route-id="@category.Id" class="btn btn-warning">Update</a>
+                                    <p>@slide.Order</p>
+                                </td>
+                                <td>
+                                    <a asp-action="delete" asp-route-id="@slide.Id" class="btn btn-danger"><i class=""></i></a>
+                                    <a asp-action="update" asp-route-id="@slide.Id" class="btn btn-warning">Update</a>
                                     <a class="btn btn-primary">Detail</a>
                                 </td>
-                                
+
                             </tr>
 
-                       }
-                        
+                        }
+
                     </tbody>
                 </table>
             </div>
