@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "otituU+sw3FJdXdCqVFis5fhXG657a3xCzJvqR+n1C8=",
+  "Hash": "oJHTIUYz4IJhF6f1XIaUB6WPOMGcnYXC1aStmYX55f4=",
   "Source": "ProniaAPK",
   "BasePath": "_content/ProniaAPK",
   "Mode": "Default",
@@ -5246,6 +5246,27 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\2-3-70x78.png"
     },
     {
+      "Identity": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\assets\\images\\website-images\\248ad5ac-75fc-4.jpg",
+      "SourceId": "ProniaAPK",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\",
+      "BasePath": "_content/ProniaAPK",
+      "RelativePath": "assets/images/website-images/248ad5ac-75fc-4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7ba20bbxwt",
+      "Integrity": "TWP5gNy1dyXMO/OABKgaopkzEaX9IZfR86YcAyAm/R4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\248ad5ac-75fc-4.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\assets\\images\\website-images\\3.png",
       "SourceId": "ProniaAPK",
       "SourceType": "Discovered",
@@ -5330,6 +5351,27 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\dark.png"
     },
     {
+      "Identity": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\assets\\images\\website-images\\errrorrrr.png",
+      "SourceId": "ProniaAPK",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\",
+      "BasePath": "_content/ProniaAPK",
+      "RelativePath": "assets/images/website-images/errrorrrr#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jqj24eiton",
+      "Integrity": "a6x9+A4B/s83G5QisXXyVezJU3bAYL5k/O+HRSVvn6w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\errrorrrr.png"
+    },
+    {
       "Identity": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\assets\\images\\website-images\\quotation.png",
       "SourceId": "ProniaAPK",
       "SourceType": "Discovered",
@@ -5412,6 +5454,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\service.png"
+    },
+    {
+      "Identity": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\assets\\images\\website-images\\WhatsApp Görsel 2024-10-09 saat 16.40.32_b9a57ebb.jpg",
+      "SourceId": "ProniaAPK",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\",
+      "BasePath": "_content/ProniaAPK",
+      "RelativePath": "assets/images/website-images/WhatsApp Görsel 2024-10-09 saat 16.40.32_b9a57ebb#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4n7ciy2o91",
+      "Integrity": "UBR/rAcnd1yyLtaYXqzI6KTNkLOWAiW6roLeODE/cck=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\WhatsApp Görsel 2024-10-09 saat 16.40.32_b9a57ebb.jpg"
     },
     {
       "Identity": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\assets\\js\\main.js",
@@ -26842,6 +26905,88 @@
       ]
     },
     {
+      "Route": "assets/images/website-images/248ad5ac-75fc-4.7ba20bbxwt.jpg",
+      "AssetFile": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\assets\\images\\website-images\\248ad5ac-75fc-4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "213192"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TWP5gNy1dyXMO/OABKgaopkzEaX9IZfR86YcAyAm/R4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Nov 2024 06:19:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7ba20bbxwt"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/images/website-images/248ad5ac-75fc-4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TWP5gNy1dyXMO/OABKgaopkzEaX9IZfR86YcAyAm/R4="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/website-images/248ad5ac-75fc-4.jpg",
+      "AssetFile": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\assets\\images\\website-images\\248ad5ac-75fc-4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "213192"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TWP5gNy1dyXMO/OABKgaopkzEaX9IZfR86YcAyAm/R4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Nov 2024 06:19:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TWP5gNy1dyXMO/OABKgaopkzEaX9IZfR86YcAyAm/R4="
+        }
+      ]
+    },
+    {
       "Route": "assets/images/website-images/3.ddtjv49ym3.png",
       "AssetFile": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\assets\\images\\website-images\\3.png",
       "Selectors": [],
@@ -27170,6 +27315,88 @@
       ]
     },
     {
+      "Route": "assets/images/website-images/errrorrrr.jqj24eiton.png",
+      "AssetFile": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\assets\\images\\website-images\\errrorrrr.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28354"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a6x9+A4B/s83G5QisXXyVezJU3bAYL5k/O+HRSVvn6w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Nov 2024 06:14:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jqj24eiton"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/images/website-images/errrorrrr.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-a6x9+A4B/s83G5QisXXyVezJU3bAYL5k/O+HRSVvn6w="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/website-images/errrorrrr.png",
+      "AssetFile": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\assets\\images\\website-images\\errrorrrr.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28354"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a6x9+A4B/s83G5QisXXyVezJU3bAYL5k/O+HRSVvn6w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Nov 2024 06:14:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-a6x9+A4B/s83G5QisXXyVezJU3bAYL5k/O+HRSVvn6w="
+        }
+      ]
+    },
+    {
       "Route": "assets/images/website-images/quotation.e2n0llepe0.png",
       "AssetFile": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\assets\\images\\website-images\\quotation.png",
       "Selectors": [],
@@ -27494,6 +27721,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-/A1yyxYN0TSpHTbOiLcI+jKz0BtLJ0rynaHGNFmekyA="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/website-images/WhatsApp Görsel 2024-10-09 saat 16.40.32_b9a57ebb.4n7ciy2o91.jpg",
+      "AssetFile": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\assets\\images\\website-images\\WhatsApp Görsel 2024-10-09 saat 16.40.32_b9a57ebb.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "878534"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UBR/rAcnd1yyLtaYXqzI6KTNkLOWAiW6roLeODE/cck=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Nov 2024 05:25:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4n7ciy2o91"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/images/website-images/WhatsApp Görsel 2024-10-09 saat 16.40.32_b9a57ebb.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UBR/rAcnd1yyLtaYXqzI6KTNkLOWAiW6roLeODE/cck="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/website-images/WhatsApp Görsel 2024-10-09 saat 16.40.32_b9a57ebb.jpg",
+      "AssetFile": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\assets\\images\\website-images\\WhatsApp Görsel 2024-10-09 saat 16.40.32_b9a57ebb.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "878534"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UBR/rAcnd1yyLtaYXqzI6KTNkLOWAiW6roLeODE/cck=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Nov 2024 05:25:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UBR/rAcnd1yyLtaYXqzI6KTNkLOWAiW6roLeODE/cck="
         }
       ]
     },

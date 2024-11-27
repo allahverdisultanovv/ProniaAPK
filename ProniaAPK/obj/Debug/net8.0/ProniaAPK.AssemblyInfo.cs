@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProniaAPK")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b390ab374462cd6761155a25f6e887ddb8aa0f8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9733960583cbd881083d6ae3787c411afa83b8f5")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProniaAPK")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProniaAPK")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
