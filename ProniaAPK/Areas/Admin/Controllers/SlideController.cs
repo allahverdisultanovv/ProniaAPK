@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using ProniaAPK.DAL;
 using ProniaAPK.Models;
+using ProniaAPK.Utilities.Extensions;
 
 namespace ProniaAPK.Areas.Admin.Controllers
 {
@@ -30,30 +31,43 @@ namespace ProniaAPK.Areas.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(Slide slide)
         {
-            int lastDotIndex = 0;
             //if (!ModelState.IsValid) return View();
-            if (!slide.Photo.ContentType.Contains("image/"))
+            if (!slide.Photo.CheckFileType("image/"))
             {
                 ModelState.AddModelError("Photo", "Sekil yaz ayy gede");
                 return View();
             }
-            if (!(slide.Photo.Length < 2 * 1024 * 1024))
+            if (!slide.Photo.CheckFileSize(Utilities.Enums.FileSize.MB, 2))
             {
                 ModelState.AddModelError("Photo", "Size is overload");
                 return View();
             }
-            lastDotIndex = slide.Photo.FileName.LastIndexOf(".");
-            string fileName = Guid.NewGuid().ToString().Substring(0, 15) + slide.Photo.FileName.Substring(lastDotIndex, (slide.Photo.FileName.Length - lastDotIndex));
-            string path = Path.Combine(_env.WebRootPath, "assets", "images", "website-images", fileName);
-            FileStream fileStream = new(path, FileMode.Create);
-            await slide.Photo.CopyToAsync(fileStream);
-            slide.Image = fileName;
 
-            fileStream.Close();
+
+            slide.Image = await slide.Photo.CreateFileAsync(_env.WebRootPath, "assets", "images", "website-images");
+
+
 
             await _context.Slides.AddAsync(slide);
             await _context.SaveChangesAsync();
+
+
             return RedirectToAction(nameof(Index));
+        }
+
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null || id < 1) return BadRequest();
+            Slide slide = await _context.Slides.FirstOrDefaultAsync(s => s.Id == id);
+            if (slide is null) return NotFound();
+
+            slide.Image.DeleteFile(_env.WebRootPath, "assets", "images", "website-images");
+
+            _context.Remove(slide);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+
         }
     }
 }

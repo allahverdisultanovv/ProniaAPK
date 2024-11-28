@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oJHTIUYz4IJhF6f1XIaUB6WPOMGcnYXC1aStmYX55f4=",
+  "Hash": "BIYoxLRkTKGrRiN6aCAdVaG5RjjfNhkNLNbV6ZGjyv4=",
   "Source": "ProniaAPK",
   "BasePath": "_content/ProniaAPK",
   "Mode": "Default",
@@ -4826,27 +4826,6 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\1-3-120x120.webp"
     },
     {
-      "Identity": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\assets\\images\\website-images\\1-3-270x300.jpg",
-      "SourceId": "ProniaAPK",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\",
-      "BasePath": "_content/ProniaAPK",
-      "RelativePath": "assets/images/website-images/1-3-270x300#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "qc85ad4o9b",
-      "Integrity": "ipc1e3De5BVzGHgrpK7pijW9Q2/iVt3RBLa1v8iVE4E=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\1-3-270x300.jpg"
-    },
-    {
       "Identity": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\assets\\images\\website-images\\1-3-310x220.jpg",
       "SourceId": "ProniaAPK",
       "SourceType": "Discovered",
@@ -4866,27 +4845,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\1-3-310x220.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\assets\\images\\website-images\\1-3-370x300.jpg",
-      "SourceId": "ProniaAPK",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\",
-      "BasePath": "_content/ProniaAPK",
-      "RelativePath": "assets/images/website-images/1-3-370x300#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "jcjpd51o2s",
-      "Integrity": "zWC0feroFPLfwkxwKoLrlFOTYsaL7J5bGl5Y8LccaBg=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\1-3-370x300.jpg"
     },
     {
       "Identity": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\assets\\images\\website-images\\1-3-570x633.jpg",
@@ -5244,27 +5202,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\2-3-70x78.png"
-    },
-    {
-      "Identity": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\assets\\images\\website-images\\248ad5ac-75fc-4.jpg",
-      "SourceId": "ProniaAPK",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\",
-      "BasePath": "_content/ProniaAPK",
-      "RelativePath": "assets/images/website-images/248ad5ac-75fc-4#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "7ba20bbxwt",
-      "Integrity": "TWP5gNy1dyXMO/OABKgaopkzEaX9IZfR86YcAyAm/R4=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\248ad5ac-75fc-4.jpg"
     },
     {
       "Identity": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\assets\\images\\website-images\\3.png",
@@ -25265,88 +25202,6 @@
       ]
     },
     {
-      "Route": "assets/images/website-images/1-3-270x300.jpg",
-      "AssetFile": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\assets\\images\\website-images\\1-3-270x300.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9219"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ipc1e3De5BVzGHgrpK7pijW9Q2/iVt3RBLa1v8iVE4E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 20 Nov 2024 21:00:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ipc1e3De5BVzGHgrpK7pijW9Q2/iVt3RBLa1v8iVE4E="
-        }
-      ]
-    },
-    {
-      "Route": "assets/images/website-images/1-3-270x300.qc85ad4o9b.jpg",
-      "AssetFile": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\assets\\images\\website-images\\1-3-270x300.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9219"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ipc1e3De5BVzGHgrpK7pijW9Q2/iVt3RBLa1v8iVE4E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 20 Nov 2024 21:00:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "qc85ad4o9b"
-        },
-        {
-          "Name": "label",
-          "Value": "assets/images/website-images/1-3-270x300.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ipc1e3De5BVzGHgrpK7pijW9Q2/iVt3RBLa1v8iVE4E="
-        }
-      ]
-    },
-    {
       "Route": "assets/images/website-images/1-3-310x220.akvcvjxkn3.jpg",
       "AssetFile": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\assets\\images\\website-images\\1-3-310x220.jpg",
       "Selectors": [],
@@ -25425,88 +25280,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-yuXO42pSBvQHKadIGS9vc63LYF2wJIjppUncycjE1m4="
-        }
-      ]
-    },
-    {
-      "Route": "assets/images/website-images/1-3-370x300.jcjpd51o2s.jpg",
-      "AssetFile": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\assets\\images\\website-images\\1-3-370x300.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "10028"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zWC0feroFPLfwkxwKoLrlFOTYsaL7J5bGl5Y8LccaBg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 20 Nov 2024 21:00:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "jcjpd51o2s"
-        },
-        {
-          "Name": "label",
-          "Value": "assets/images/website-images/1-3-370x300.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-zWC0feroFPLfwkxwKoLrlFOTYsaL7J5bGl5Y8LccaBg="
-        }
-      ]
-    },
-    {
-      "Route": "assets/images/website-images/1-3-370x300.jpg",
-      "AssetFile": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\assets\\images\\website-images\\1-3-370x300.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "10028"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zWC0feroFPLfwkxwKoLrlFOTYsaL7J5bGl5Y8LccaBg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 20 Nov 2024 21:00:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-zWC0feroFPLfwkxwKoLrlFOTYsaL7J5bGl5Y8LccaBg="
         }
       ]
     },
@@ -26901,88 +26674,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-Grj25Ra35/uNuquB4GYAENbdvD8LlUUtnkAWY8G73uw="
-        }
-      ]
-    },
-    {
-      "Route": "assets/images/website-images/248ad5ac-75fc-4.7ba20bbxwt.jpg",
-      "AssetFile": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\assets\\images\\website-images\\248ad5ac-75fc-4.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "213192"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"TWP5gNy1dyXMO/OABKgaopkzEaX9IZfR86YcAyAm/R4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 06:19:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "7ba20bbxwt"
-        },
-        {
-          "Name": "label",
-          "Value": "assets/images/website-images/248ad5ac-75fc-4.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-TWP5gNy1dyXMO/OABKgaopkzEaX9IZfR86YcAyAm/R4="
-        }
-      ]
-    },
-    {
-      "Route": "assets/images/website-images/248ad5ac-75fc-4.jpg",
-      "AssetFile": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\assets\\images\\website-images\\248ad5ac-75fc-4.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "213192"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"TWP5gNy1dyXMO/OABKgaopkzEaX9IZfR86YcAyAm/R4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 06:19:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-TWP5gNy1dyXMO/OABKgaopkzEaX9IZfR86YcAyAm/R4="
         }
       ]
     },

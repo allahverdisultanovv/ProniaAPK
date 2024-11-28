@@ -2724,18 +2724,6 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-cdKX5Tc48pNfKZnQffsv0nL6QAHODor3mM1tMt02yMg="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"4674"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022cdKX5Tc48pNfKZnQffsv0nL6QAHODor3mM1tMt02yMg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 20 Nov 2024 21:00:17 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ProniaAPK/assets/images/website-images/1-3-270x300.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\website-images\1-3-270x300.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ipc1e3De5BVzGHgrpK7pijW9Q2/iVt3RBLa1v8iVE4E="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"9219"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ipc1e3De5BVzGHgrpK7pijW9Q2/iVt3RBLa1v8iVE4E=\u0022"},{"Name":"Last-Modified","Value":"Wed, 20 Nov 2024 21:00:18 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ProniaAPK/assets/images/website-images/1-3-270x300.qc85ad4o9b.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\website-images\1-3-270x300.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qc85ad4o9b"},{"Name":"integrity","Value":"sha256-ipc1e3De5BVzGHgrpK7pijW9Q2/iVt3RBLa1v8iVE4E="},{"Name":"label","Value":"_content/ProniaAPK/assets/images/website-images/1-3-270x300.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9219"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ipc1e3De5BVzGHgrpK7pijW9Q2/iVt3RBLa1v8iVE4E=\u0022"},{"Name":"Last-Modified","Value":"Wed, 20 Nov 2024 21:00:18 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ProniaAPK/assets/images/website-images/1-3-310x220.akvcvjxkn3.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\website-images\1-3-310x220.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -2747,18 +2735,6 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-yuXO42pSBvQHKadIGS9vc63LYF2wJIjppUncycjE1m4="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"17008"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022yuXO42pSBvQHKadIGS9vc63LYF2wJIjppUncycjE1m4=\u0022"},{"Name":"Last-Modified","Value":"Wed, 20 Nov 2024 21:00:18 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ProniaAPK/assets/images/website-images/1-3-370x300.jcjpd51o2s.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\website-images\1-3-370x300.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jcjpd51o2s"},{"Name":"integrity","Value":"sha256-zWC0feroFPLfwkxwKoLrlFOTYsaL7J5bGl5Y8LccaBg="},{"Name":"label","Value":"_content/ProniaAPK/assets/images/website-images/1-3-370x300.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10028"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022zWC0feroFPLfwkxwKoLrlFOTYsaL7J5bGl5Y8LccaBg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 20 Nov 2024 21:00:18 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ProniaAPK/assets/images/website-images/1-3-370x300.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\website-images\1-3-370x300.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zWC0feroFPLfwkxwKoLrlFOTYsaL7J5bGl5Y8LccaBg="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"10028"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022zWC0feroFPLfwkxwKoLrlFOTYsaL7J5bGl5Y8LccaBg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 20 Nov 2024 21:00:18 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ProniaAPK/assets/images/website-images/1-3-570x633.gnd8nx3ag3.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\website-images\1-3-570x633.jpg'))</AssetFile>
@@ -2987,18 +2963,6 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ql46ixfa2o"},{"Name":"integrity","Value":"sha256-Mr1MGiD/EQS7YNlMT3D7UCweMnO\u002B0qE55e015K/dQks="},{"Name":"label","Value":"_content/ProniaAPK/assets/images/website-images/2.png"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3767"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Mr1MGiD/EQS7YNlMT3D7UCweMnO\u002B0qE55e015K/dQks=\u0022"},{"Name":"Last-Modified","Value":"Wed, 20 Nov 2024 21:00:18 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ProniaAPK/assets/images/website-images/248ad5ac-75fc-4.7ba20bbxwt.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\website-images\248ad5ac-75fc-4.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7ba20bbxwt"},{"Name":"integrity","Value":"sha256-TWP5gNy1dyXMO/OABKgaopkzEaX9IZfR86YcAyAm/R4="},{"Name":"label","Value":"_content/ProniaAPK/assets/images/website-images/248ad5ac-75fc-4.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"213192"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022TWP5gNy1dyXMO/OABKgaopkzEaX9IZfR86YcAyAm/R4=\u0022"},{"Name":"Last-Modified","Value":"Wed, 27 Nov 2024 06:19:57 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ProniaAPK/assets/images/website-images/248ad5ac-75fc-4.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\website-images\248ad5ac-75fc-4.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-TWP5gNy1dyXMO/OABKgaopkzEaX9IZfR86YcAyAm/R4="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"213192"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022TWP5gNy1dyXMO/OABKgaopkzEaX9IZfR86YcAyAm/R4=\u0022"},{"Name":"Last-Modified","Value":"Wed, 27 Nov 2024 06:19:57 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ProniaAPK/assets/images/website-images/3.ddtjv49ym3.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\website-images\3.png'))</AssetFile>
