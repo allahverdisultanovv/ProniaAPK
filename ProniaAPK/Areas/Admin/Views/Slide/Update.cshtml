@@ -1,41 +1,47 @@
 ﻿
-@model CreateSlideVM
+@model UpdateSlideVM
 
 <div class="col-12 grid-margin stretch-card">
     <div class="card">
         <div class="card-body">
             <h4 class="card-title">Basic form elements</h4>
             <p class="card-description">
-                Create Slide
+                Update Slide
             </p>
             <form class="forms-sample" method="post" enctype="multipart/form-data">
                 <div class="form-group">
-                    <label asp-for="Photo">Photo</label>
+                    <img style="width:150px; height:150px;" src="~/assets/images/website-images/@Model.Image"/>
+                    <input asp-for="Image" class="form-control" type="hidden">
+
+
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputName1">Photo</label>
                     <input asp-for="Photo" class="form-control" placeholder="Photo" accept="image/*">
                     <span class="text-danger" asp-validation-for="Photo"></span>
 
                 </div>
                 <div class="form-group">
-                    <label asp-for="Title">Title</label>
+                    <label for="exampleInputName1">Title</label>
                     <input asp-for="Title" class="form-control" placeholder="Title">
                     <span class="text-danger" asp-validation-for="Title"></span>
 
                 </div>
                 <div class="form-group">
-                    <label asp-for="SubTitle">SubTitle</label>
+                    <label for="exampleInputName1">SubTitle</label>
                     <input asp-for="SubTitle" class="form-control" placeholder="SubTitle">
                     <span class="text-danger" asp-validation-for="SubTitle"></span>
 
                 </div>
                 <div class="form-group">
-                    <label asp-for="Order">Order</label>
+                    <label for="exampleInputName1">Order</label>
                     <input asp-for="Order" class="form-control" placeholder="Order">
                     <span class="text-danger" asp-validation-for="Order"></span>
 
                 </div>
-            
+
                 <div class="form-group">
-                    <label asp-for="Description">Description</label>
+                    <label for="exampleInputName1">Description</label>
                     <textarea asp-for="Description" class="form-control" placeholder="Description"></textarea>
                     <span class="text-danger" asp-validation-for="Description"></span>
 

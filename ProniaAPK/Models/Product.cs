@@ -11,6 +11,6 @@
         //relational
         public int CategoryId { get; set; }
         public Category Category { get; set; }
-        public List<ProductImage> productImages { get; set; }
+        public List<ProductImage> ProductImages { get; set; }
     }
 }

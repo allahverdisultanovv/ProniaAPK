@@ -913,10 +913,6 @@
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\1-3-310x220.jpg"
     },
     {
-      "Id": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\assets\\images\\website-images\\1-3-570x633.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\1-3-570x633.jpg"
-    },
-    {
       "Id": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\assets\\images\\website-images\\1-3.png",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\1-3.png"
     },
@@ -993,6 +989,10 @@
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\3.png"
     },
     {
+      "Id": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\assets\\images\\website-images\\71159703-cb5d-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\71159703-cb5d-4.jpg"
+    },
+    {
       "Id": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\assets\\images\\website-images\\WhatsApp Görsel 2024-10-09 saat 16.40.32_b9a57ebb.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\WhatsApp Görsel 2024-10-09 saat 16.40.32_b9a57ebb.jpg"
     },
@@ -1009,8 +1009,8 @@
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\dark.png"
     },
     {
-      "Id": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\assets\\images\\website-images\\errrorrrr.png",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\errrorrrr.png"
+      "Id": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\assets\\images\\website-images\\eb918eea-f244-4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\eb918eea-f244-4.png"
     },
     {
       "Id": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\wwwroot\\assets\\images\\website-images\\orchid.png",

@@ -24,7 +24,7 @@ namespace ProniaAPK.Controllers
             if (id < 1 || id is null) return BadRequest();
             Product? product = await _context.Products
                 .Include(p => p.Category)
-                .Include(p => p.productImages.OrderByDescending(pi => pi.IsPrimary))
+                .Include(p => p.ProductImages.OrderByDescending(pi => pi.IsPrimary))
                 .FirstOrDefaultAsync(p => p.Id == id);
 
             if (product is null) return NotFound();
@@ -34,7 +34,7 @@ namespace ProniaAPK.Controllers
                 RelatedProducts = await _context.Products
                 .Take(8)
                 .Where(p => p.Category.Id == product.CategoryId && p.Id != id)
-                .Include(p => p.productImages.Where(pi => pi.IsPrimary != null))
+                .Include(p => p.ProductImages.Where(pi => pi.IsPrimary != null))
                 .ToListAsync()
 
             };

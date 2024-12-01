@@ -1,14 +1,14 @@
 ﻿@using ProniaAPK.Models
-@model List<Slide>
+@model List<GetAdminProductVM>
 @{
     var count = 0;
 }
 <div class="col-lg-12 grid-margin stretch-card">
     <div class="card">
         <div class="card-body">
-            <h4 class="card-title">Slides</h4>
+            <h4 class="card-title">Categories</h4>
             <p class="card-description">
-                <a asp-controller="slide" asp-action="create" class="btn btn-success">Create Slide</a>
+                <a asp-controller="product" asp-action="create" class="btn btn-success">Create Product</a>
             </p>
             <div class="table-responsive">
                 <table class="table table-striped">
@@ -18,13 +18,13 @@
                                 No
                             </th>
                             <th>
-                                Image
+                                Name
                             </th>
                             <th>
-                                Title
+                                Price
                             </th>
                             <th>
-                                Order
+                                Category
                             </th>
                             <th>
                                 Settings
@@ -32,7 +32,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach (Slide slide in Model)
+                        @foreach (GetAdminProductVM productVM in Model)
                         {
                             count++;
                             <tr>
@@ -40,17 +40,18 @@
                                     @count
                                 </td>
                                 <td>
-                                    <img src="~/assets/images/website-images/@slide.Image">
+                                    <p>@productVM.Name</p>
                                 </td>
                                 <td>
-                                    <p>@slide.Title</p>
+                                    <p>@productVM.Price</p>
                                 </td>
                                 <td>
-                                    <p>@slide.Order</p>
+                                    <p>@productVM.CategoryName</p>
                                 </td>
+                                
                                 <td>
-                                    <a asp-action="delete" asp-route-id="@slide.Id" class="btn btn-danger"><i class=""></i></a>
-                                    <a asp-action="update" asp-route-id="@slide.Id" class="btn btn-warning">Update</a>
+                                    <a asp-action="delete" asp-route-id="@productVM.Id" class="btn btn-danger">Delete</a>
+                                    <a asp-action="update" asp-route-id="@productVM.Id" class="btn btn-warning">Update</a>
                                     <a class="btn btn-primary">Detail</a>
                                 </td>
 

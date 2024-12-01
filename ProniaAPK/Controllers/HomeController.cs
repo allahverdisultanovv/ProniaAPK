@@ -20,7 +20,7 @@ namespace ProniaAPK.Controllers
             HomeVM homeVM = new HomeVM
             {
                 Slides = _context.Slides.Take(2).OrderBy(s => s.Order).ToList(),
-                Products = _context.Products.Include(p => p.productImages.Where(pi => pi.IsPrimary != null)).ToList(),
+                Products = _context.Products.Include(p => p.ProductImages.Where(pi => pi.IsPrimary != null)).ToList(),
             };
             return View(homeVM);
         }
