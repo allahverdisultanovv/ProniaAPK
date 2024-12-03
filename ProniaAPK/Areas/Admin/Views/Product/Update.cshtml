@@ -1,4 +1,4 @@
-﻿@model CreateAdminProductVM
+﻿@model UpdateProductVM
 
 <div class="col-12 grid-margin stretch-card">
     <div class="card">
@@ -9,12 +9,12 @@
             <form class="forms-sample" method="post" enctype="multipart/form-data">
                 <div class="form-groupName">
                     <label asp-for="Name">Name</label>
-                    <input asp-for="Name" class="form-control" placeholder="Name" >
+                    <input asp-for="Name" class="form-control" placeholder="Name">
                     <span class="text-danger" asp-validation-for="Name"></span>
 
                 </div>
                 <div class="form-group">
-                    <label asp-for="Price" >Price</label>
+                    <label asp-for="Price">Price</label>
                     <input asp-for="Price" class="form-control" placeholder="Price">
                     <span class="text-danger" asp-validation-for="Price"></span>
                 </div>
@@ -26,18 +26,10 @@
                 <div class="form-group">
                     <label asp-for="CategoryId">Category</label>
                     <select asp-for="CategoryId" class="form-control" asp-items="new SelectList(Model.Categories,nameof(Category.Id),nameof(Category.Name))">
-                       
-                        <option selected disabled value="">Choose Category</option>
+                      
+                        @* <option selected disabled value="">Choose Category</option> *@
                     </select>
                     <span class="text-danger" asp-validation-for="CategoryId"></span>
-
-                </div>
-                <div class="form-group">
-                    <label asp-for="TagIds">Tags</label>
-                    <select multiple asp-for="TagIds" class="form-control" asp-items="new SelectList(Model.Categories,nameof(Tag.Id),nameof(Tag.Name))">
-
-                    </select>
-                    <span class="text-danger" asp-validation-for="TagIds"></span>
 
                 </div>
                 <div class="form-group">

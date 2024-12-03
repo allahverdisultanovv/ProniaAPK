@@ -35,10 +35,10 @@
                                 @foreach (ProductImage img in product.ProductImages){
 
                                 <div class="swiper-slide">
-                                    <a href="~/assets/images/website-images/@img.ImageURL"
+                                    <a href="~/assets/images/website-images/@img?.ImageURL"
                                        class="single-img gallery-popup">
                                         <img class="img-full"
-                                             src="~/assets/images/website-images/@img.ImageURL"
+                                             src="~/assets/images/website-images/@img?.ImageURL"
                                              alt="Product Image" />
                                     </a>
                                 </div>
@@ -53,7 +53,7 @@
                                     {
                                         <a href="#" class="swiper-slide">
                                             <img class="img-full"
-                                                 src="~/assets/images/website-images/@img.ImageURL"
+                                                 src="~/assets/images/website-images/@img?.ImageURL"
                                                  alt="Product Thumnail" />
                                         </a>
                                     }
@@ -194,9 +194,12 @@
                         <div class="product-category product-tags">
                             <span class="title">Tags :</span>
                             <ul>
+                                @foreach(ProductTag pTag in product.ProductTags){
+
                                 <li>
-                                    <a href="#">Furniture</a>
+                                    <a href="#">@pTag.Tag.Name</a>
                                 </li>
+                                }
                             </ul>
                         </div>
                         <div class="product-category social-link align-items-center pb-0">
@@ -468,10 +471,10 @@
                                 <div class="product-img">
                                     <a asp-controller="shop" asp-action="detail" asp-route-id="@relProduct.Id">
                                         <img class="primary-img"
-                                             src="~/assets/images/website-images/@relProduct.ProductImages.FirstOrDefault(pi=>pi.IsPrimary==true).ImageURL"
+                                             src="~/assets/images/website-images/@relProduct.ProductImages.FirstOrDefault(pi=>pi.IsPrimary==true)?.ImageURL"
                                              alt="Product Images" />
                                         <img class="secondary-img"
-                                                 src="~/assets/images/website-images/@relProduct.ProductImages.FirstOrDefault(pi=>pi.IsPrimary==false).ImageURL"
+                                                 src="~/assets/images/website-images/@relProduct.ProductImages.FirstOrDefault(pi=>pi.IsPrimary==false)?.ImageURL"
                                              alt="Product Images" />
                                     </a>
                                     <div class="product-add-action">

@@ -38,17 +38,11 @@ namespace ProniaAPK.Utilities.Extensions
         {
             int lastDotIndex = Photo.FileName.LastIndexOf(".");
             string fileName = Guid.NewGuid().ToString().Substring(0, 15) + Photo.FileName.Substring(lastDotIndex, (Photo.FileName.Length - lastDotIndex));
-
             using (FileStream fileStream = new(fileName.GeneratePath(roots), FileMode.Create))
             {
-
-
                 await Photo.CopyToAsync(fileStream);
             }
-
             return fileName;
-
-
         }
 
 
