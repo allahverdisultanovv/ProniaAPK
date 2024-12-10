@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using ProniaAPK.Areas.Admin.ViewModels;
 using ProniaAPK.DAL;
 using ProniaAPK.Models;
 
@@ -14,10 +15,15 @@ namespace ProniaAPK.Areas.Admin.Controllers
         {
             _context = context;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            List<Category> categories = _context.Categories.Where(c => !c.IsDeleted).Include(c => c.Products).ToList();
-            return View(categories);
+            List<GetCategoriesAdminVM> categoryVMs = await _context.Categories.Where(c => !c.IsDeleted).Include(c => c.Products).Select(c => new GetCategoriesAdminVM
+            {
+                Id = c.Id,
+                Name = c.Name,
+                ProductCount = c.Products.Count()
+            }).ToListAsync();
+            return View(categoryVMs);
         }
         public IActionResult Create()
         {

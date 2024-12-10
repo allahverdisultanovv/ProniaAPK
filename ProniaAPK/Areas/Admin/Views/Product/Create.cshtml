@@ -7,6 +7,21 @@
                 Create Product
             </p>
             <form class="forms-sample" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label asp-for="MainPhoto">Main Image</label>
+                    <input asp-for="MainPhoto" class="form-control" accept="image/*">
+                    <span class="text-danger" asp-validation-for="MainPhoto"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="HoverPhoto">Secondary Image</label>
+                    <input class="form-control" asp-for="HoverPhoto" accept="image/*">
+                    <span class="text-danger" asp-validation-for="HoverPhoto"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="AdditionalPhotos">Additional Images</label>
+                    <input class="form-control" asp-for="AdditionalPhotos" accept="image/*">
+                    <span class="text-danger" asp-validation-for="AdditionalPhotos"></span>
+                </div>
                 <div class="form-groupName">
                     <label asp-for="Name">Name</label>
                     <input asp-for="Name" class="form-control" placeholder="Name" >
@@ -34,10 +49,24 @@
                 </div>
                 <div class="form-group">
                     <label asp-for="TagIds">Tags</label>
-                    <select multiple asp-for="TagIds" class="form-control" asp-items="new SelectList(Model.Categories,nameof(Tag.Id),nameof(Tag.Name))">
+                    <select multiple asp-for="TagIds" class="form-control" asp-items="new SelectList(Model.Tags,nameof(Tag.Id),nameof(Tag.Name))">
 
                     </select>
                     <span class="text-danger" asp-validation-for="TagIds"></span>
+
+                </div>
+                <div class="form-group">
+                    <label asp-for="SizeIds">Sizes</label>
+                    <select multiple asp-for="SizeIds" class="form-control" asp-items="new SelectList(Model.Sizes,nameof(Size.Id),nameof(Size.Name))">
+                    </select>
+                    <span class="text-danger" asp-validation-for="SizeIds"></span>
+
+                </div>
+                <div class="form-group">
+                    <label asp-for="ColorIds">Colors</label>
+                    <select multiple asp-for="ColorIds" class="form-control" asp-items="new SelectList(Model.Colors,nameof(Color.Id),nameof(Color.Name))">
+                    </select>
+                    <span class="text-danger" asp-validation-for="ColorIds"></span>
 
                 </div>
                 <div class="form-group">

@@ -43,7 +43,30 @@ namespace ProniaAPK.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Categories", (string)null);
+                });
+
+            modelBuilder.Entity("ProniaAPK.Models.Color", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Colors", (string)null);
                 });
 
             modelBuilder.Entity("ProniaAPK.Models.Product", b =>
@@ -82,7 +105,30 @@ namespace ProniaAPK.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("Products");
+                    b.ToTable("Products", (string)null);
+                });
+
+            modelBuilder.Entity("ProniaAPK.Models.ProductColor", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ColorId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ColorId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("ProductColors", (string)null);
                 });
 
             modelBuilder.Entity("ProniaAPK.Models.ProductImage", b =>
@@ -113,7 +159,30 @@ namespace ProniaAPK.Migrations
 
                     b.HasIndex("productId");
 
-                    b.ToTable("ProductImages");
+                    b.ToTable("ProductImages", (string)null);
+                });
+
+            modelBuilder.Entity("ProniaAPK.Models.ProductSize", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("SizeId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("SizeId");
+
+                    b.ToTable("ProductSizes", (string)null);
                 });
 
             modelBuilder.Entity("ProniaAPK.Models.ProductTag", b =>
@@ -136,7 +205,30 @@ namespace ProniaAPK.Migrations
 
                     b.HasIndex("TagId");
 
-                    b.ToTable("ProductTags");
+                    b.ToTable("ProductTags", (string)null);
+                });
+
+            modelBuilder.Entity("ProniaAPK.Models.Size", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Sizes", (string)null);
                 });
 
             modelBuilder.Entity("ProniaAPK.Models.Slide", b =>
@@ -174,7 +266,7 @@ namespace ProniaAPK.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Slides");
+                    b.ToTable("Slides", (string)null);
                 });
 
             modelBuilder.Entity("ProniaAPK.Models.Tag", b =>
@@ -197,7 +289,7 @@ namespace ProniaAPK.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Tags");
+                    b.ToTable("Tags", (string)null);
                 });
 
             modelBuilder.Entity("ProniaAPK.Models.Product", b =>
@@ -211,6 +303,25 @@ namespace ProniaAPK.Migrations
                     b.Navigation("Category");
                 });
 
+            modelBuilder.Entity("ProniaAPK.Models.ProductColor", b =>
+                {
+                    b.HasOne("ProniaAPK.Models.Color", "Color")
+                        .WithMany("Colors")
+                        .HasForeignKey("ColorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ProniaAPK.Models.Product", "Product")
+                        .WithMany("Colors")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Color");
+
+                    b.Navigation("Product");
+                });
+
             modelBuilder.Entity("ProniaAPK.Models.ProductImage", b =>
                 {
                     b.HasOne("ProniaAPK.Models.Product", "product")
@@ -220,6 +331,25 @@ namespace ProniaAPK.Migrations
                         .IsRequired();
 
                     b.Navigation("product");
+                });
+
+            modelBuilder.Entity("ProniaAPK.Models.ProductSize", b =>
+                {
+                    b.HasOne("ProniaAPK.Models.Product", "Product")
+                        .WithMany("ProductSizes")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ProniaAPK.Models.Size", "Size")
+                        .WithMany("ProductSizes")
+                        .HasForeignKey("SizeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+
+                    b.Navigation("Size");
                 });
 
             modelBuilder.Entity("ProniaAPK.Models.ProductTag", b =>
@@ -246,11 +376,25 @@ namespace ProniaAPK.Migrations
                     b.Navigation("Products");
                 });
 
+            modelBuilder.Entity("ProniaAPK.Models.Color", b =>
+                {
+                    b.Navigation("Colors");
+                });
+
             modelBuilder.Entity("ProniaAPK.Models.Product", b =>
                 {
+                    b.Navigation("Colors");
+
                     b.Navigation("ProductImages");
 
+                    b.Navigation("ProductSizes");
+
                     b.Navigation("ProductTags");
+                });
+
+            modelBuilder.Entity("ProniaAPK.Models.Size", b =>
+                {
+                    b.Navigation("ProductSizes");
                 });
 
             modelBuilder.Entity("ProniaAPK.Models.Tag", b =>

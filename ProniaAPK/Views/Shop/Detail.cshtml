@@ -95,18 +95,21 @@
                         <div class="selector-wrap color-option">
                             <span class="selector-title border-bottom-0">Color</span>
                             <select class="nice-select wide border-bottom-0 rounded-0">
-                                <option value="default">Black & White</option>
-                                <option value="blue">Blue</option>
-                                <option value="green">Green</option>
-                                <option value="red">Red</option>
+                                @foreach (ProductColor pColor in product.ProductColors)
+                                {
+                                <option value="@pColor.Color.Id">@pColor.Color.Name</option>
+                                    
+                                }
+            
                             </select>
                         </div>
                         <div class="selector-wrap size-option">
                             <span class="selector-title">Size</span>
                             <select class="nice-select wide rounded-0">
-                                <option value="medium">Medium Size & Poot</option>
-                                <option value="large">Large Size With Poot</option>
-                                <option value="small">Small Size With Poot</option>
+                                @foreach(ProductSize pSize in product.ProductSizes){
+
+                                    <option value="@pSize.Size.Name">@pSize.Size.Name</option>
+                                }
                             </select>
                         </div>
                         <p class="short-desc">
@@ -195,7 +198,7 @@
                             <span class="title">Tags :</span>
                             <ul>
                                 @foreach(ProductTag pTag in product.ProductTags){
-
+                                    
                                 <li>
                                     <a href="#">@pTag.Tag.Name</a>
                                 </li>

@@ -27,6 +27,10 @@ namespace ProniaAPK.Controllers
                 .Include(p => p.ProductImages.OrderByDescending(pi => pi.IsPrimary))
                 .Include(p => p.ProductTags)
                 .ThenInclude(pt => pt.Tag)
+                .Include(p => p.ProductSizes)
+                .ThenInclude(ps => ps.Size)
+                .Include(p => p.ProductColors)
+                .ThenInclude(p => p.Color)
                 .FirstOrDefaultAsync(p => p.Id == id);
 
             if (product is null) return NotFound();
