@@ -260,6 +260,7 @@ wwwroot\assets\images\website-images\555969e2-71df-4.png
 wwwroot\assets\images\website-images\5ba523f2-3264-4.png
 wwwroot\assets\images\website-images\6256d32d-91b1-4.png
 wwwroot\assets\images\website-images\71159703-cb5d-4.jpg
+wwwroot\assets\images\website-images\78f41445-14a0-4.jpg
 wwwroot\assets\images\website-images\7a1750c8-e805-4.png
 wwwroot\assets\images\website-images\7ae2ce99-e6df-4.jpg
 wwwroot\assets\images\website-images\8d2d46d2-4dd3-4.jpg
@@ -272,11 +273,13 @@ wwwroot\assets\images\website-images\b8b682cc-3446-4.jpg
 wwwroot\assets\images\website-images\c3674806-2933-4.jpg
 wwwroot\assets\images\website-images\car.png
 wwwroot\assets\images\website-images\card.png
+wwwroot\assets\images\website-images\cd8f96e3-737b-4.jpg
 wwwroot\assets\images\website-images\d103fe1f-237b-4.png
 wwwroot\assets\images\website-images\d38ec530-8092-4.jpg
 wwwroot\assets\images\website-images\dark.png
 wwwroot\assets\images\website-images\de23fcf2-ff9d-4.jpg
 wwwroot\assets\images\website-images\eb918eea-f244-4.png
+wwwroot\assets\images\website-images\edb8effe-973a-4.jpg
 wwwroot\assets\images\website-images\quotation.png
 wwwroot\assets\images\website-images\orchid.png
 wwwroot\assets\images\website-images\rose.png

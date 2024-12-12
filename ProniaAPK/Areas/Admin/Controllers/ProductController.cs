@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ProniaAPK.Areas.Admin.ViewModels;
 using ProniaAPK.DAL;
@@ -8,6 +9,7 @@ using ProniaAPK.Utilities.Extensions;
 namespace ProniaAPK.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
     public class ProductController : Controller
     {
         private readonly AppDBContext _context;
