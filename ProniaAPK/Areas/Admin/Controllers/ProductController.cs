@@ -9,7 +9,7 @@ using ProniaAPK.Utilities.Extensions;
 namespace ProniaAPK.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize]
+    [Authorize(Roles = "Admin,Moderator")]
     public class ProductController : Controller
     {
         private readonly AppDBContext _context;
@@ -178,6 +178,7 @@ namespace ProniaAPK.Areas.Admin.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Update(int? id)
         {
             if (id == null) return BadRequest();
