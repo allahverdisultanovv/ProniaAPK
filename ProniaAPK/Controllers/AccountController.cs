@@ -103,7 +103,6 @@ namespace ProniaAPK.Controllers
             }
             if (!result.Succeeded)
             {
-
                 ModelState.AddModelError(string.Empty, "Email UserName or Password is incorrect");
                 return View();
             }
