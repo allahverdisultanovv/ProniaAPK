@@ -1,9 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ProniaAPK.DAL;
+using ProniaAPK.Services.Interfaces;
 
 namespace ProniaAPK.Services.Implementations
 {
-    public class LayoutServices
+    public class LayoutServices : ILayoutService
     {
         private readonly AppDBContext _context;
 

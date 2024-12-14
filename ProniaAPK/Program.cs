@@ -3,13 +3,14 @@ using Microsoft.EntityFrameworkCore;
 using ProniaAPK.DAL;
 using ProniaAPK.Models;
 using ProniaAPK.Services.Implementations;
+using ProniaAPK.Services.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<AppDBContext>(opt =>
 
     opt.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
-builder.Services.AddScoped<LayoutServices>();
+builder.Services.AddScoped<ILayoutService, LayoutServices>();
 builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
 {
 

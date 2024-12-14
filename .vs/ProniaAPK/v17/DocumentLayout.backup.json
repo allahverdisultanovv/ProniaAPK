@@ -3,6 +3,46 @@
   "WorkspaceRootPath": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|c:\\users\\allahverdi\\desktop\\code\\backend\\mvc\\homework\\proniaapk\\proniaapk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|solutionrelative:proniaapk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|c:\\users\\allahverdi\\desktop\\code\\backend\\mvc\\homework\\proniaapk\\proniaapk\\services\\implementations\\layoutservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|solutionrelative:proniaapk\\services\\implementations\\layoutservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|c:\\users\\allahverdi\\desktop\\code\\backend\\mvc\\homework\\proniaapk\\proniaapk\\services\\interfaces\\ilayoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|solutionrelative:proniaapk\\services\\interfaces\\ilayoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|c:\\users\\allahverdi\\desktop\\code\\backend\\mvc\\homework\\proniaapk\\proniaapk\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|solutionrelative:proniaapk\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|c:\\users\\allahverdi\\desktop\\code\\backend\\mvc\\homework\\proniaapk\\proniaapk\\areas\\admin\\controllers\\colorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|solutionrelative:proniaapk\\areas\\admin\\controllers\\colorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|c:\\users\\allahverdi\\desktop\\code\\backend\\mvc\\homework\\proniaapk\\proniaapk\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|solutionrelative:proniaapk\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|c:\\users\\allahverdi\\desktop\\code\\backend\\mvc\\homework\\proniaapk\\proniaapk\\views\\shared\\components\\footer\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|solutionrelative:proniaapk\\views\\shared\\components\\footer\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|c:\\users\\allahverdi\\desktop\\code\\backend\\mvc\\homework\\proniaapk\\proniaapk\\viewcomponents\\footerviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|solutionrelative:proniaapk\\viewcomponents\\footerviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|c:\\users\\allahverdi\\desktop\\code\\backend\\mvc\\homework\\proniaapk\\proniaapk\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|solutionrelative:proniaapk\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|c:\\users\\allahverdi\\desktop\\code\\backend\\mvc\\homework\\proniaapk\\proniaapk\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|solutionrelative:proniaapk\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|c:\\users\\allahverdi\\desktop\\code\\backend\\mvc\\homework\\proniaapk\\proniaapk\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|solutionrelative:proniaapk\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -17,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|c:\\users\\allahverdi\\desktop\\code\\backend\\mvc\\homework\\proniaapk\\proniaapk\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|solutionrelative:proniaapk\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|c:\\users\\allahverdi\\desktop\\code\\backend\\mvc\\homework\\proniaapk\\proniaapk\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|solutionrelative:proniaapk\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|c:\\users\\allahverdi\\desktop\\code\\backend\\mvc\\homework\\proniaapk\\proniaapk\\views\\shared\\components\\product\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -39,24 +75,8 @@
       "RelativeMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|solutionrelative:proniaapk\\viewmodels\\detailvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|c:\\users\\allahverdi\\desktop\\code\\backend\\mvc\\homework\\proniaapk\\proniaapk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|solutionrelative:proniaapk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|c:\\users\\allahverdi\\desktop\\code\\backend\\mvc\\homework\\proniaapk\\proniaapk\\viewmodels\\account\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|solutionrelative:proniaapk\\viewmodels\\account\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|c:\\users\\allahverdi\\desktop\\code\\backend\\mvc\\homework\\proniaapk\\proniaapk\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|solutionrelative:proniaapk\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|c:\\users\\allahverdi\\desktop\\code\\backend\\mvc\\homework\\proniaapk\\proniaapk\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|solutionrelative:proniaapk\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|c:\\users\\allahverdi\\desktop\\code\\backend\\mvc\\homework\\proniaapk\\proniaapk\\services\\implementations\\layoutservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|solutionrelative:proniaapk\\services\\implementations\\layoutservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C7D6B76-A66E-4D4B-9078-E48DBA32E749}|ProniaAPK\\ProniaAPK.csproj|c:\\users\\allahverdi\\desktop\\code\\backend\\mvc\\homework\\proniaapk\\proniaapk\\utilities\\extensions\\filehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,11 +122,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ILayoutService.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\Services\\Interfaces\\ILayoutService.cs",
+              "RelativeDocumentMoniker": "ProniaAPK\\Services\\Interfaces\\ILayoutService.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\Services\\Interfaces\\ILayoutService.cs*",
+              "RelativeToolTip": "ProniaAPK\\Services\\Interfaces\\ILayoutService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T14:26:10.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ColorController.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\Areas\\Admin\\Controllers\\ColorController.cs",
+              "RelativeDocumentMoniker": "ProniaAPK\\Areas\\Admin\\Controllers\\ColorController.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\Areas\\Admin\\Controllers\\ColorController.cs",
+              "RelativeToolTip": "ProniaAPK\\Areas\\Admin\\Controllers\\ColorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T13:06:46.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\Views\\Shared\\Components\\Footer\\Default.cshtml",
+              "RelativeDocumentMoniker": "ProniaAPK\\Views\\Shared\\Components\\Footer\\Default.cshtml",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\Views\\Shared\\Components\\Footer\\Default.cshtml",
+              "RelativeToolTip": "ProniaAPK\\Views\\Shared\\Components\\Footer\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-14T12:58:54.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "ProniaAPK\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "ProniaAPK\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwCgAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T11:43:28.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FooterViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\ViewComponents\\FooterViewComponent.cs",
+              "RelativeDocumentMoniker": "ProniaAPK\\ViewComponents\\FooterViewComponent.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\ViewComponents\\FooterViewComponent.cs",
+              "RelativeToolTip": "ProniaAPK\\ViewComponents\\FooterViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T11:28:00.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "SortType.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\Utilities\\Enums\\SortType.cs",
               "RelativeDocumentMoniker": "ProniaAPK\\Utilities\\Enums\\SortType.cs",
@@ -114,12 +195,11 @@
               "RelativeToolTip": "ProniaAPK\\Utilities\\Enums\\SortType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T11:21:35.489Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T11:21:35.489Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\Views\\Shared\\Components\\Product\\Default.cshtml",
               "RelativeDocumentMoniker": "ProniaAPK\\Views\\Shared\\Components\\Product\\Default.cshtml",
@@ -127,12 +207,11 @@
               "RelativeToolTip": "ProniaAPK\\Views\\Shared\\Components\\Product\\Default.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-14T11:12:38.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T11:12:38.283Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "ProductViewComponent.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\ViewComponents\\ProductViewComponent.cs",
               "RelativeDocumentMoniker": "ProniaAPK\\ViewComponents\\ProductViewComponent.cs",
@@ -140,25 +219,23 @@
               "RelativeToolTip": "ProniaAPK\\ViewComponents\\ProductViewComponent.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T11:05:52.229Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T11:05:52.229Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ProniaAPK\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\Controllers\\HomeController.cs",
               "RelativeToolTip": "ProniaAPK\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T09:22:26.823Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T09:22:26.823Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "HomeVM.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\ViewModels\\HomeVM.cs",
               "RelativeDocumentMoniker": "ProniaAPK\\ViewModels\\HomeVM.cs",
@@ -166,25 +243,23 @@
               "RelativeToolTip": "ProniaAPK\\ViewModels\\HomeVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T09:21:43.334Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T09:21:43.334Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ProniaAPK\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\Views\\Home\\Index.cshtml*",
-              "RelativeToolTip": "ProniaAPK\\Views\\Home\\Index.cshtml*",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ProniaAPK\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAHYAAAAAAAAAAADwv34AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-14T09:04:40.418Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T09:04:40.418Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\Views\\Shop\\Detail.cshtml",
               "RelativeDocumentMoniker": "ProniaAPK\\Views\\Shop\\Detail.cshtml",
@@ -192,12 +267,11 @@
               "RelativeToolTip": "ProniaAPK\\Views\\Shop\\Detail.cshtml",
               "ViewState": "AgIAAMIBAAAAAAAAAAAAANQBAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-14T09:01:48.61Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T09:01:48.61Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 15,
               "Title": "ProductPartialView.cshtml",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\Views\\Shared\\ProductPartialView.cshtml",
               "RelativeDocumentMoniker": "ProniaAPK\\Views\\Shared\\ProductPartialView.cshtml",
@@ -205,25 +279,24 @@
               "RelativeToolTip": "ProniaAPK\\Views\\Shared\\ProductPartialView.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-14T08:57:45.815Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T08:57:45.815Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\Program.cs",
               "RelativeDocumentMoniker": "ProniaAPK\\Program.cs",
-              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\Program.cs",
-              "RelativeToolTip": "ProniaAPK\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\Program.cs*",
+              "RelativeToolTip": "ProniaAPK\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-13T18:15:46.105Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "FileHelper.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\Utilities\\Extensions\\FileHelper.cs",
               "RelativeDocumentMoniker": "ProniaAPK\\Utilities\\Extensions\\FileHelper.cs",
@@ -231,25 +304,24 @@
               "RelativeToolTip": "ProniaAPK\\Utilities\\Extensions\\FileHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T18:13:50.112Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-13T18:13:50.112Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 1,
               "Title": "LayoutServices.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\Services\\Implementations\\LayoutServices.cs",
               "RelativeDocumentMoniker": "ProniaAPK\\Services\\Implementations\\LayoutServices.cs",
-              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\Services\\Implementations\\LayoutServices.cs",
-              "RelativeToolTip": "ProniaAPK\\Services\\Implementations\\LayoutServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\Services\\Implementations\\LayoutServices.cs*",
+              "RelativeToolTip": "ProniaAPK\\Services\\Implementations\\LayoutServices.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-13T07:58:02.31Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "20241213075131_CreateSettingsTable.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\Migrations\\20241213075131_CreateSettingsTable.cs",
               "RelativeDocumentMoniker": "ProniaAPK\\Migrations\\20241213075131_CreateSettingsTable.cs",
@@ -261,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "AppDBContext.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\DAL\\AppDBContext.cs",
               "RelativeDocumentMoniker": "ProniaAPK\\DAL\\AppDBContext.cs",
@@ -273,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "Setting.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\Models\\Setting.cs",
               "RelativeDocumentMoniker": "ProniaAPK\\Models\\Setting.cs",
@@ -285,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "UserRole.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\Utilities\\Enums\\UserRole.cs",
               "RelativeDocumentMoniker": "ProniaAPK\\Utilities\\Enums\\UserRole.cs",
@@ -297,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "ProniaAPK\\Views\\Account\\Login.cshtml",
@@ -309,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "LoginVM.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\ViewModels\\Account\\LoginVM.cs",
               "RelativeDocumentMoniker": "ProniaAPK\\ViewModels\\Account\\LoginVM.cs",
@@ -317,38 +389,36 @@
               "RelativeToolTip": "ProniaAPK\\ViewModels\\Account\\LoginVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T20:31:46.653Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T20:31:46.653Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ProniaAPK\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "ProniaAPK\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAKYBAAAAAAAAAAAQwMMBAABKAAAAAAAAAA==",
+              "ViewState": "AgIAAIsDAAAAAAAAAAAAAJUDAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-11T06:26:17.335Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T06:26:17.335Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 3,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\Areas\\Admin\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "ProniaAPK\\Areas\\Admin\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\Areas\\Admin\\Controllers\\ProductController.cs",
               "RelativeToolTip": "ProniaAPK\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALQAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T23:23:48.464Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "DetailVM.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\ViewModels\\DetailVM.cs",
               "RelativeDocumentMoniker": "ProniaAPK\\ViewModels\\DetailVM.cs",
@@ -356,12 +426,11 @@
               "RelativeToolTip": "ProniaAPK\\ViewModels\\DetailVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T20:51:07.308Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T20:51:07.308Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "RegisterVM.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\ViewModels\\Account\\RegisterVM.cs",
               "RelativeDocumentMoniker": "ProniaAPK\\ViewModels\\Account\\RegisterVM.cs",
@@ -373,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "ProniaAPK\\Views\\Account\\Register.cshtml",
@@ -385,7 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\Code\\BackEnd\\MVC\\HomeWork\\ProniaAPK\\ProniaAPK\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "ProniaAPK\\Controllers\\AccountController.cs",
