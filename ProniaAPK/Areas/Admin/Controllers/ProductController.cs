@@ -10,6 +10,7 @@ namespace ProniaAPK.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Authorize(Roles = "Admin,Moderator")]
+    [AutoValidateAntiforgeryToken]
     public class ProductController : Controller
     {
         private readonly AppDBContext _context;

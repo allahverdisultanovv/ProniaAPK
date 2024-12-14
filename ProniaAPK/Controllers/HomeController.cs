@@ -12,15 +12,19 @@ namespace ProniaAPK.Controllers
         {
             _context = context;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
 
         {
 
 
             HomeVM homeVM = new HomeVM
             {
-                Slides = _context.Slides.Take(2).OrderBy(s => s.Order).ToList(),
-                Products = _context.Products.Include(p => p.ProductImages.Where(pi => pi.IsPrimary != null)).ToList(),
+                Slides = await _context.Slides.Take(2).OrderBy(s => s.Order).ToListAsync(),
+
+                NewProducts = await _context.Products.Take(4)
+                .OrderByDescending(p => p.CreatedAt)
+                .Include(p => p.ProductImages.Where(pi => pi.IsPrimary != null))
+                .ToListAsync(),
             };
             return View(homeVM);
         }
