@@ -82,7 +82,7 @@ namespace ProniaAPK.Controllers
             await _signInManager.SignInAsync(user, false);
             return RedirectToAction(nameof(HomeController.Index), "Home");
         }
-
+        [HttpGet]
         public IActionResult Login()
         {
             return View();
