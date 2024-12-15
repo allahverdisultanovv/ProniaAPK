@@ -25,6 +25,18 @@ namespace ProniaAPK.Controllers
             List<BasketItemVM> basketVM = new();
             if (User.Identity.IsAuthenticated)
             {
+
+                basketVM = await _context.BasketItems.Where(bi => bi.AppUserId == User.FindFirstValue(ClaimTypes.NameIdentifier))
+                    .Select(bi => new BasketItemVM
+                    {
+                        Count = bi.Count,
+                        Image = bi.Product.ProductImages.FirstOrDefault(pi => pi.IsPrimary == true).ImageURL,
+                        Name = bi.Product.Name,
+                        Price = bi.Product.Price,
+                        SubTotal = bi.Count * bi.Product.Price,
+                        ProductId = bi.ProductId
+                    }).ToListAsync();
+
             }
             else
             {
