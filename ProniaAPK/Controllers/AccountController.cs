@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ProniaAPK.Models;
+using ProniaAPK.Utilities.Enums;
 using ProniaAPK.ViewModels;
 
 namespace ProniaAPK.Controllers
@@ -10,11 +11,13 @@ namespace ProniaAPK.Controllers
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
+        private readonly RoleManager<IdentityRole> _roleManager;
 
-        public Account(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager)
+        public Account(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, RoleManager<IdentityRole> roleManager)
         {
             _userManager = userManager;
             _signInManager = signInManager;
+            _roleManager = roleManager;
         }
         public IActionResult Register()
         {
@@ -73,9 +76,9 @@ namespace ProniaAPK.Controllers
                         ModelState.AddModelError(nameof(registerVM.Email), error.Description);
                     }
                 }
-
                 return View();
             }
+            await _userManager.AddToRoleAsync(user, UserRole.Member.ToString());
             await _signInManager.SignInAsync(user, false);
             return RedirectToAction(nameof(HomeController.Index), "Home");
         }
@@ -129,5 +132,17 @@ namespace ProniaAPK.Controllers
             }
             return Redirect(returnurl);
         }
+
+        //public async Task<IActionResult> CreateRole()
+        //{
+        //    foreach (UserRole role in Enum.GetValues(typeof(UserRole)))
+        //    {
+        //        if (!await _roleManager.RoleExistsAsync(role.ToString()))
+        //        {
+        //            await _roleManager.CreateAsync(new IdentityRole() { Name = role.ToString() });
+        //        }
+        //    }
+        //    return RedirectToAction($"index", "Home");
+        //}
     }
 }
