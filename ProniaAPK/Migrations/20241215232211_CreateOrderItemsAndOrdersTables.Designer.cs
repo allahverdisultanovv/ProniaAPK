@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ProniaAPK.DAL;
 
@@ -11,9 +12,11 @@ using ProniaAPK.DAL;
 namespace ProniaAPK.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    partial class AppDBContextModelSnapshot : ModelSnapshot
+    [Migration("20241215232211_CreateOrderItemsAndOrdersTables")]
+    partial class CreateOrderItemsAndOrdersTables
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -360,9 +363,6 @@ namespace ProniaAPK.Migrations
                     b.Property<int>("Count")
                         .HasColumnType("int");
 
-                    b.Property<int?>("OrderId")
-                        .HasColumnType("int");
-
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
@@ -375,8 +375,6 @@ namespace ProniaAPK.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("AppUserId");
-
-                    b.HasIndex("OrderId");
 
                     b.HasIndex("ProductId");
 
@@ -716,10 +714,6 @@ namespace ProniaAPK.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("ProniaAPK.Models.Order", null)
-                        .WithMany("OrderItems")
-                        .HasForeignKey("OrderId");
-
                     b.HasOne("ProniaAPK.Models.Product", "Product")
                         .WithMany()
                         .HasForeignKey("ProductId")
@@ -823,11 +817,6 @@ namespace ProniaAPK.Migrations
             modelBuilder.Entity("ProniaAPK.Models.Color", b =>
                 {
                     b.Navigation("ProductColors");
-                });
-
-            modelBuilder.Entity("ProniaAPK.Models.Order", b =>
-                {
-                    b.Navigation("OrderItems");
                 });
 
             modelBuilder.Entity("ProniaAPK.Models.Product", b =>

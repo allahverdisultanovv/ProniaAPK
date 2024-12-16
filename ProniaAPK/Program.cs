@@ -12,6 +12,8 @@ builder.Services.AddDbContext<AppDBContext>(opt =>
 
     opt.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
 builder.Services.AddScoped<ILayoutService, LayoutServices>();
+builder.Services.AddScoped<IBasketService, BasketService>();
+
 builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
 {
 
