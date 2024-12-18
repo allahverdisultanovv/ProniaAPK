@@ -42,7 +42,6 @@ namespace ProniaAPK.Controllers
                 .Where(p => p.Category.Id == product.CategoryId && p.Id != id)
                 .Include(p => p.ProductImages.Where(pi => pi.IsPrimary != null))
                 .ToListAsync()
-
             };
             return View(detailVM);
         }
