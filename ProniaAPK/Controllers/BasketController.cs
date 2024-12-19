@@ -9,7 +9,6 @@ using ProniaAPK.Services.Interfaces;
 using ProniaAPK.ViewModels;
 using System.Security.Claims;
 
-
 namespace ProniaAPK.Controllers
 {
     public class BasketController : Controller
@@ -90,12 +89,10 @@ namespace ProniaAPK.Controllers
                 Response.Cookies.Append("basket", json);
             }
             return RedirectToAction(nameof(GetBasket));
-
         }
         public async Task<IActionResult> GetBasket()
         {
             return PartialView("BasketPartialView", await _basketService.GetBasketAsync());
-
         }
         [Authorize(Roles = "Member")]
         public async Task<IActionResult> Checkout()
@@ -158,6 +155,33 @@ namespace ProniaAPK.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction("Index", "Home");
 
+        }
+
+
+        public async Task<IActionResult> Remove(int? id, string? returnurl)
+        {
+            if (id == null || id < 1) return BadRequest();
+            if (User.Identity.IsAuthenticated)
+            {
+
+                BasketItem item = await _context.BasketItems.FirstOrDefaultAsync(bi => bi.ProductId == id);
+                if (item == null) return NotFound();
+                _context.BasketItems.RemoveRange(item);
+                await _context.SaveChangesAsync();
+            }
+            else
+            {
+
+                string cookies = Request.Cookies["basket"];
+
+                List<BasketCookieItemVM> basket = JsonConvert.DeserializeObject<List<BasketCookieItemVM>>(cookies);
+                BasketCookieItemVM item = basket.FirstOrDefault(b => b.ProductId == id);
+                basket.Remove(item);
+                cookies = JsonConvert.SerializeObject(basket);
+                Response.Cookies.Append("basket", cookies);
+            }
+            if (returnurl is not null) return Redirect(returnurl);
+            return RedirectToAction(nameof(Index));
         }
     }
 }

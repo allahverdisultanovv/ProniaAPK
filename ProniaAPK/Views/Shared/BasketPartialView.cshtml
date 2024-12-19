@@ -22,7 +22,7 @@
             {
                 total += item.SubTotal;
                 <li class="minicart-product">
-                    <a class="product-item_remove" href="#">
+                    <a class="product-item_remove" asp-action="remove" asp-controller="basket" asp-route-id="@item.ProductId" asp-route-returnurl="/">
                         <i class="pe-7s-close"
                            data-tippy="Remove"
                            data-tippy-inertia="true"
@@ -70,3 +70,5 @@
         </div>
     }
 </div>
+
+            <input type="hidden" value="@Model.Count" id="basket-count"/>

@@ -531,6 +531,10 @@
             }).done(data=>{
                 var cart=document.querySelector("#miniCart")
                 cart.innerHTML=data
+
+                var basketCount=document.querySelector("#basket-count").value
+                var quantites=document.querySelectorAll(".cus-quantity")
+                quantites.forEach(q=>q.innerHTML=basketCount)
             })
         })
     })

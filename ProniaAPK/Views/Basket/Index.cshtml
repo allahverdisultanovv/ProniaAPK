@@ -45,7 +45,7 @@
                                         total += item.SubTotal;
                                         <tr>
                                             <td class="product_remove">
-                                                <a href="#">
+                                                <a asp-action="remove" asp-controller="basket" asp-route-id="@item.ProductId" asp-route-returnurl="@Context.Request.Path.Value">
                                                     <i class="pe-7s-close"
                                                        data-tippy="Remove"
                                                        data-tippy-inertia="true"
@@ -75,9 +75,12 @@
                                                     <div class="dec qtybutton">
                                                         <i class="fa fa-minus"></i>
                                                     </div>
-                                                    <div class="inc qtybutton">
+                                                        <a asp-action="addbasket" asp-controller="basket" asp-route-id="@item.ProductId">
+                                                        <div class="inc qtybutton">
+
                                                         <i class="fa fa-plus"></i>
-                                                    </div>
+                                                        </div>
+                                                        </a>
                                                 </div>
                                             </td>
                                             <td class="product-subtotal">

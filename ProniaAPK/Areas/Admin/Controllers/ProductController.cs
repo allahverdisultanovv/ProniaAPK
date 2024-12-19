@@ -6,11 +6,11 @@ using ProniaAPK.DAL;
 using ProniaAPK.Models;
 using ProniaAPK.Utilities.Extensions;
 
+
 namespace ProniaAPK.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Authorize(Roles = "Admin,Moderator")]
-    [AutoValidateAntiforgeryToken]
     public class ProductController : Controller
     {
         private readonly AppDBContext _context;
@@ -21,9 +21,21 @@ namespace ProniaAPK.Areas.Admin.Controllers
             _context = context;
             _env = env;
         }
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int page = 1)
         {
-            List<GetAdminProductVM> productVMs = await _context.Products.Include(p => p.Category)
+            if (page < 1) return BadRequest();
+            int count = await _context.Products.CountAsync();
+            double totalPage = (int)Math.Ceiling(count / 5d);
+            if (page > ViewBag.TotalPage) return BadRequest();
+
+            PaginatedVM<GetAdminProductVM> productVMs = new()
+            {
+                TotalPage = totalPage,
+                CurrentPage = page,
+                ItemVMs = await _context.Products
+            .Skip((page - 1) * 5)
+            .Take(5)
+            .Include(p => p.Category)
             .Include(p => p.ProductImages.Where(pi => pi.IsPrimary == true))
             .Select(p => new GetAdminProductVM
             {
@@ -31,9 +43,11 @@ namespace ProniaAPK.Areas.Admin.Controllers
                 Name = p.Name,
                 Price = p.Price,
                 CategoryName = p.Category.Name,
-                Image = p.ProductImages[0].ImageURL
+                Image = p.ProductImages[0].ImageURL,
+
             })
-            .ToListAsync();
+            .ToListAsync()
+            };
             return View(productVMs);
         }
         public async Task<IActionResult> Create()

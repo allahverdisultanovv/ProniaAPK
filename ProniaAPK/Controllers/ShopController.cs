@@ -14,9 +14,23 @@ namespace ProniaAPK.Controllers
         {
             _context = context;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> Index(string? search)
         {
-            return View();
+            IQueryable<Product> query = _context.Products;
+            if (!string.IsNullOrEmpty(search))
+            {
+                query = query.Where(p => p.Name.ToLower().Contains(search.ToLower())).Include(p => p.ProductImages.Where(pi => pi.IsPrimary != null));
+            }
+
+
+
+            ShopVM vm = new ShopVM()
+            {
+                Products = query.ToList(),
+                Categories = await _context.Categories.Include(c => c.Products).ToListAsync()
+            };
+
+            return View(vm);
         }
 
         public async Task<IActionResult> Detail(int? id)

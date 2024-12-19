@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using ProniaAPK.DAL;
-using ProniaAPK.Models;
 using ProniaAPK.Services.Interfaces;
 using ProniaAPK.ViewModels;
 using System.Security.Claims;
@@ -49,22 +48,21 @@ namespace ProniaAPK.Services.Implementations
                 }
 
                 cookies = JsonConvert.DeserializeObject<List<BasketCookieItemVM>>(cookie);
-                foreach (BasketCookieItemVM item in cookies)
+
+                basketVM = await _context.Products.Where(p => cookies.Select(c => c.ProductId).Contains(p.Id)).Select(p => new BasketItemVM
                 {
-                    Product product = await _context.Products.Include(p => p.ProductImages.Where(pi => pi.IsPrimary == true)).FirstOrDefaultAsync(p => p.Id == item.ProductId);
-                    if (product != null)
-                    {
-                        basketVM.Add(new BasketItemVM
-                        {
-                            ProductId = item.ProductId,
-                            Count = item.Count,
-                            Name = product.Name,
-                            Price = product.Price,
-                            Image = product.ProductImages[0].ImageURL,
-                            SubTotal = product.Price * item.Count,
-                        });
-                    }
-                }
+                    ProductId = p.Id,
+                    Name = p.Name,
+                    Price = p.Price,
+                    Image = p.ProductImages[0].ImageURL,
+
+                }).ToListAsync();
+
+                basketVM.ForEach(async bi =>
+                {
+                    bi.Count = cookies.FirstOrDefault(c => c.ProductId == bi.ProductId).Count;
+                    bi.SubTotal = bi.Price * bi.Count;
+                });
             }
 
             return basketVM;
