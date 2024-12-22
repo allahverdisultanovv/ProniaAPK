@@ -2,8 +2,8 @@
 {
     public enum SortType
     {
-        Name,
-        Date,
-        Price
+        Name = 1,
+        Date = 2,
+        Price = 3
     }
 }

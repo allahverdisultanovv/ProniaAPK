@@ -1,11 +1,16 @@
-﻿using ProniaAPK.Models;
-
-namespace ProniaAPK.ViewModels
+﻿namespace ProniaAPK.ViewModels
 {
     public class ShopVM
     {
-        public List<Product> Products { get; set; }
-        public List<Category> Categories { get; set; }
+        public List<GetProductVM> Products { get; set; }
+        public List<GetCategoryVM> Categories { get; set; }
+        public List<GetColorVM> Colors { get; set; }
+        public string Search { get; set; }
+        public int? CategoryId { get; set; }
+        public int? Key { get; set; }
+        public int? ColorId { get; set; }
+        public double TotalPage { get; set; }
+        public int CurrentPage { get; set; }
 
     }
 }
